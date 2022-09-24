@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Open+Sans:ital,wght@1,500&family=Poppins:ital,wght@0,400;1,400;1,500&display=swap');
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;  
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+.card-text{
+  background-color: coral;
+}
+.primary{
+  background-color:#2e86de;
+  color: azure;
+  border: none;
+  margin: none;
+}
+.food{
+  background-color: #f8c291;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+   
+.main{
+  background-color:#eb2f06;
+  margin-top: 40px;
+  display: inline-grid;
+  grid-template-columns: Auto Auto Auto ;
+  gap: 20px;
+  grid-template-rows: Auto Auto Auto;
+  gap: 30px;
+  padding-top: 10px;
+}
+h4{
+  font-family: 'Montserrat', sans-serif;  
+  margin-bottom: 30px;
+}
+.food form button{
+  margin-left: 100px;
+  border: none;
+  margin: none;  
+}
+
+.box
+{
+  height: 50px;
+  width: 300px;
+  background-color: #fa983a;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+  h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700px;
+    font-size: xx-large;
+  }
